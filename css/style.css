@@ -74,7 +74,7 @@ a:hover:after {
 	border-image: url('../img/main-border.png') 20 round;
 }
 .h2{
-	margin-top: 20px;
+	margin: 20px 0;
 	text-align: center;
 	font-size: 40px;
 }
@@ -83,7 +83,6 @@ a:hover:after {
 	justify-content: space-around;
 }
 .news .news-item{
-	margin-top: 20px;
 	width: 30%;
 }
 .more{
@@ -108,4 +107,10 @@ a:hover:after {
 	width: 30%;
 	height: 200px;
 	border: 2px solid yellow;
+}
+.sound.teaserVisible .sound__teaser{
+	opacity: 0 !important;
+}
+.sound.teaserVisible .sound__content{
+	opacity: 1 !important;
 }
