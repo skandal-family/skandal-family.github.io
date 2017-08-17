@@ -85,8 +85,6 @@ a:hover:after {
 .news .news-item{
 	margin-top: 20px;
 	width: 30%;
-	height: 200px;
-	border: 2px solid yellow;
 }
 .more{
 	margin: 20px 0;
