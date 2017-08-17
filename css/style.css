@@ -108,9 +108,32 @@ a:hover:after {
 	height: 200px;
 	border: 2px solid yellow;
 }
-.sound.teaserVisible .sound__teaser{
-	opacity: 0 !important;
+.center{
+	width: 460px;
+	margin: 0 auto;
 }
-.sound.teaserVisible .sound__content{
-	opacity: 1 !important;
+ol{
+	list-style-type: none;
 }
+ol a{
+	display: block;
+	padding: 5px 10px;
+	margin: 10px;
+	font-size: 20px;
+	color: yellow;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: none;
+}
+ol a:after{
+  display: none;
+}
+li.playing{
+	color: #aaa;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
+}
+li.playing a{
+	color: #000;
+}
+      
