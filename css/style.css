@@ -80,10 +80,24 @@ a:hover:after {
 }
 .news .news-block{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .news .news-item{
 	width: 30%;
+	height: 300px;
+	border: 2px solid yellow;
+}
+.concerts .concerts-block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.concerts .concert-item{
+	width: 30%;
+	border: 2px solid yellow;
+}
+.concerts .concert-item img{
+	display: block;
 }
 .more{
 	margin: 20px 0;
@@ -114,11 +128,12 @@ a:hover:after {
 }
 ol{
 	list-style-type: none;
+	display: flex;
+	flex-direction: column;
 }
 ol a{
 	display: block;
 	padding: 5px 10px;
-	margin: 10px;
 	font-size: 20px;
 	color: yellow;
 	text-align: center;
@@ -126,14 +141,22 @@ ol a{
 	text-transform: uppercase;
 	border: none;
 }
+ol a:hover{
+	transform: scale(1.3);
+}
 ol a:after{
   display: none;
 }
-li.playing{
-	color: #aaa;
-	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
-}
 li.playing a{
-	color: #000;
+	transform: scale(1.3);
+}
+.main-footer{
+	height: 100px;
+	background: darkgreen;
+}
+.dr{
+	margin: 20px 0;
+	text-align: center;
+	font-size: 100px;
 }
       
