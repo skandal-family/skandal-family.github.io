@@ -299,7 +299,7 @@ body{
 }
 .video .youtube-block{
 	position: relative;
-	max-width: 700px;
+	max-width: 800px;
 	display: block;
 	margin: 0 auto;
 	border-radius: 5px;
@@ -309,7 +309,6 @@ body{
 .video .youtube{
 	display: block;
 	border-radius: 5px;
-	background: url(../img/bg-header-dark.jpg);
 }
 .video .control{
 	position: absolute;
