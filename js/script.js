@@ -1,3 +1,9 @@
+// Меню
+$(".menu-btn").on('click', function() {
+	$(".menu-btn").toggleClass("on");
+	$(".menu-logo").toggleClass("on");
+	$(".menu").toggleClass('flex-menu');
+});
 // Музыка
 $(function() {
 	// Setup the player to autoplay the next track
@@ -22,4 +28,17 @@ $(function() {
 		audio.load($('a', this).attr('data-src'));
 		audio.play();
 	});
+});
+//Видео
+$('.play-btn').click( function() {
+	var myVideo = document.getElementById("youtube-index"); 
+    myVideo.play();
+    $(".play-btn").css("display", "none");
+    $(".pause-btn").css("display", "block");
+});
+$('.pause-btn').click( function() {
+	var myVideo = document.getElementById("youtube-index"); 
+    myVideo.pause();
+    $(".pause-btn").css("display", "none");
+    $(".play-btn").css("display", "block");
 });

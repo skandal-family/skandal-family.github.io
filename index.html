@@ -4,20 +4,24 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
-	<link rel="shortcut icon" href="img/icon.ico"/>
+	<link rel="shortcut icon" href="img/index/icon.ico"/>
 	<title>СКАНДАЛ FAMILY</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<h1 class="none">Скандал</h1>
 	<header class="header-main">
 		<nav class="container">
-			<h2 class="none">Главное меню</h2>
-			<ul class="menu">
+			<div class="clearfix">
+				<div class="menu-btn">
+					<div class="one"></div>
+					<div class="two"></div>
+					<div class="three"></div>
+				</div>
+			</div>
+			<ul class="menu flex-menu">
 				<li><a href="index.html">Главная</a></li>
 				<li><a href="html/news.html">Новости</a></li>
-				<li><a href="html/concerts.html">Концерты</a></li>
 				<li><a href="html/music.html">Музыка</a></li>
 				<li><a href="html/video.html">Видео</a></li>
 				<li><a href="html/photo.html">Фото</a></li>
@@ -25,44 +29,42 @@
 		</nav>
 	</header>
 	<div class="main-photo container">
-		<img class="img" src="img/main-photo.jpg" alt="Скандал">
+		<img class="img" src="img/index/main-photo.jpg" alt="Скандал">
+		<div class="vint vint1"></div>
+		<div class="vint vint2"></div>
+		<div class="vint vint3"></div>
+		<div class="vint vint4"></div>
 	</div>
 	<div class="news container">
 		<h2 class="h2">Новости</h2>
-<!-- 		<div class="news-block">
+		<div class="news-block">
 			<div class="news-item">
+				<div class="vint vint1"></div>
+				<div class="vint vint2"></div>
+				<div class="vint vint3"></div>
+				<div class="vint vint4"></div>
 			</div>
 			<div class="news-item">
+				<div class="vint vint1"></div>
+				<div class="vint vint2"></div>
+				<div class="vint vint3"></div>
+				<div class="vint vint4"></div>
 			</div>
 			<div class="news-item">
+				<div class="vint vint1"></div>
+				<div class="vint vint2"></div>
+				<div class="vint vint3"></div>
+				<div class="vint vint4"></div>
 			</div>
-		</div> -->
-		<h2 class="dr">Аня, с ДнюХОЙ!)</h2>
+		</div>
 		<div class="more">
 			<a href="html/news.html">Больше новостей</a>
 		</div>
 	</div>
-	<div class="concerts container">
-		<h2 class="h2">Концерты</h2>
-		<div class="concerts-block">
-			<div class="concert-item">
-				<img src="img/main-concerts-1.jpg" alt="Концерт в Гродно">
-			</div>
-			<div class="concert-item">
-				<img src="img/main-concerts-2.jpg" alt="Концерт в Минске">
-			</div>
-			<div class="concert-item">
-				<img src="img/main-concerts-3.jpg" alt="Концерт в Минске">
-			</div>
-		</div>
-		<div class="more">
-			<a href="html/concerts.html">Больше концертов</a>
-		</div>
-	</div>
 	<div class="music container">
 		<h2 class="h2">Музыка</h2>
-		<div class="center">
-			<audio preload></audio>
+		<audio preload></audio>
+		<div class="play-list">
 			<ol>
 				<li><a href="#" data-src="mp3/OtvetEstrade.mp3">Ответ эстраде</a></li>
 				<li><a href="#" data-src="mp3/MeryRid.mp3">Мери Рид</a></li>
@@ -70,6 +72,10 @@
 				<li><a href="#" data-src="mp3/Smysl.mp3">Смысл</a></li>
 				<li><a href="#" data-src="mp3/PoterianoeVremia.mp3">Потеряно время</a></li>
 			</ol>
+			<div class="vint vint1"></div>
+			<div class="vint vint2"></div>
+			<div class="vint vint3"></div>
+			<div class="vint vint4"></div>
 		</div>
 		<div class="more">
 			<a href="html/music.html">Больше музыки</a>
@@ -77,22 +83,30 @@
 	</div>
 	<div class="video container">
 		<h2 class="h2">Видео</h2>
-		<iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/vSPf6y9-A2U" frameborder="0" modestbranding="1"></iframe>
+		<div class="youtube-block">			
+			<video id="youtube-index" class="youtube" width="100%" preload="none">
+				<source src="http://r6---sn-4g5e6n7d.googlevideo.com/videoplayback?id=o-AHVueO8ofhh4O7UjJQx3WXjHDBMDBdtPsq3B7-OuUsdq&key=cms1&dur=126.548&signature=14FAACE0D6E573215629873A90AE5C2518E4FDDF.49C5065A996F39FE9C10456E79B3AA44C1AC0757&pl=24&sparams=dur,ei,expire,id,initcwndbps,ip,ipbits,itag,lmt,mime,mip,mm,mn,ms,mv,pl,ratebypass,source&source=youtube&itag=22&ei=VmydWfbtA8-2WLHGnIgB&ip=41.189.178.28&mime=video%2Fmp4&ipbits=0&ratebypass=yes&expire=1503510710&lmt=1427905854067680&req_id=32906fe12405a3ee&redirect_counter=2&cm2rm=sn-aige7d76&cms_redirect=yes&mip=86.57.220.40&mm=34&mn=sn-4g5e6n7d&ms=ltu&mt=1503488727&mv=u">
+			</video>
+			<div class="control">
+				<div class="play-btn"></div>
+				<div class="pause-btn"></div>
+			</div>
+		</div>
 		<div class="more">
 			<a href="html/video.html">Больше видео</a>
 		</div>
 	</div>
-	<div class="photo container">
+	<!--<div class="photo container">
 		<h2 class="h2">Фото</h2>
 		<div class="photo-block">
 			<div class="photo-item">
-				
+				<img src="img/index/photo.jpg" alt="19.06.15">
 			</div>
 			<div class="photo-item">
-				
+				<img src="img/index/photo.jpg" alt="19.06.15">
 			</div>
 			<div class="photo-item">
-				
+				<img src="img/index/photo.jpg" alt="19.06.15">				
 			</div>
 		</div>
 		<div class="more">
@@ -103,7 +117,7 @@
 		<div class="container">
 			
 		</div>
-	</footer>
+	</footer> -->
 	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 	<script src="js/audio.js"></script>
 	<script src="js/script.js"></script>
