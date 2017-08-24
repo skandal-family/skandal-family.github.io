@@ -21,6 +21,11 @@ body{
 	max-width: 1000px;
 	margin: 0 auto;
 }
+.clearfix:after{
+	display: table;
+	content: "";
+	clear: both;
+}
 .header-main{
 	position: fixed;
 	top: 0;
