@@ -7,7 +7,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	-webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 body{
 	font-family: 'Guerrilla', sans-serif;
@@ -53,7 +52,6 @@ body{
 	text-align: center;
 	border: 5px solid transparent;
 	border-radius: 5px;
-	overflow: none;
 }
 .header-main a:hover,
 .header-main a:active{
@@ -82,9 +80,6 @@ body{
   margin: 6px auto;
   border-radius: 2px;
   backface-visibility: hidden;
-  -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   box-shadow: 0 0 5px white;
 }
