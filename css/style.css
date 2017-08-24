@@ -19,12 +19,11 @@ body{
 	color: yellow;
 	background: black;
 	background: url(../img/bg.jpg);
-	height: 2000px;
 	text-transform: uppercase;
 	text-shadow: 0 0 10px white;
 }
 .container{
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 .header-main{
@@ -91,13 +90,15 @@ body{
 }
 .main-photo{
 	display: block;
-	margin-top: 70px;
-	box-shadow: 0 0 20px #fff;
+	margin: 70px auto 30px;
 	position: relative;
+	padding: 0 20px;
 }
 .main-photo .img{
 	display: block;
 	width: 100%;
+	box-shadow: 0 0 20px #fff;
+	border-radius: 15px;
 }
 .main-photo .vint{
 	position: absolute;
@@ -110,43 +111,43 @@ body{
 }
 .main-photo .vint1{
 	top: 10px;
-	left: 10px;
+	left: 30px;
 }
 .main-photo .vint2{
 	top: 10px;
-	right: 10px;
+	right: 30px;
 }
 .main-photo .vint3{
 	bottom: 10px;
-	left: 10px;
+	left: 30px;
 }
 .main-photo .vint4{
 	bottom: 10px;
-	right: 10px;
+	right: 30px;
+}
+.news{
+	margin: 30px auto;
+	padding: 0 20px;
 }
 .news .h2{
-	width: 300px;
-	margin: 30px auto 10px;
+	width: 100%;
 	text-align: center;
 	font-size: 30px;
-	padding: 5px 0;
+	padding: 10px 0;
 	color: #333;
 	background: url(../img/bg-header.jpg);
 	box-shadow: 0 0 10px white;
+	border-radius: 15px 15px 0 0;
 }
 .news .news-block{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	width: 100%;	
+	position: relative;
 }
 .news .news-item{
-	position: relative;
-	width: 30%;
-	min-width: 300px;
 	height: 300px;
-	margin: 10px;
-	background: url(../img/bg-header.jpg);
-	box-shadow: 0 0 10px white;
+	background: url(../img/bg-header-dark.jpg);
+	box-shadow: 0 0 20px #fff;
+	border-radius: 0 0 15px 15px;
 }
 .news .vint{
 	position: absolute;
@@ -158,11 +159,11 @@ body{
 	box-shadow: 0 0 5px white;
 }
 .news .vint1{
-	top: 10px;
+	top: -42px;
 	left: 10px;
 }
 .news .vint2{
-	top: 10px;
+	top: -42px;
 	right: 10px;
 }
 .news .vint3{
@@ -174,55 +175,58 @@ body{
 	right: 10px;
 }
 .news .more{
-	width: 300px;
-	margin: 0 auto;
+	width: 280px;
+	margin: 20px auto;
 }
-.news a{
+.news .more a{
 	display: block;
 	padding: 5px 0;
 	font-size: 30px;
 	color: #333;
-	margin-top: 10px;
 	text-decoration: none;
 	text-transform: uppercase;
 	position: relative;
 	text-align: center;
 	background: url(../img/bg-header.jpg);
 	box-shadow: 0 0 5px #fff;
-	border-radius: 22px
+	border-radius: 22px;
 }
 .news a:hover,
 .news a:active{
 	background: url(../img/bg-header-dark.jpg);
 }
+.music{
+	margin: 30px auto;
+	padding: 0 20px;
+}
 .music .h2{
-	width: 300px;
-	margin: 30px auto 20px;
+	max-width: 1000px;
+	margin: 0 auto;
 	text-align: center;
 	font-size: 30px;
-	padding: 5px 0;
+	padding: 10px 0;
 	color: #333;
 	background: url(../img/bg-header.jpg);
 	box-shadow: 0 0 10px white;
+	border-radius: 15px 15px 0 0;
 }
 .music audio{
 	display: block;
 	margin: 20px auto;
 }
 .music .play-list{
-	width: 320px;
-	margin: 20px auto;
-	box-shadow: 0 0 10px white;
+	max-width: 1000px;
+	margin: 0 auto;
 	position: relative;
-	border-radius: 5px;
 }
 .music ol{
 	list-style-type: none;
-	border-radius: 5px;
+	border-radius: 0 0 15px 15px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	background: url(../img/bg-header.jpg)
+	background: url(../img/bg-header.jpg);
+	box-shadow: 0 0 10px white;
 }
 .music ol a{
 	display: block;
@@ -235,10 +239,10 @@ body{
 	border: none;
 }
 .music ol a:hover{
-	transform: scale(1.2);
+	text-shadow: 0 0 30px #000;
 }
 .music li.playing a{
-	transform: scale(1.2);
+	text-shadow: 0 0 30px #000;
 }
 .music .vint{
 	position: absolute;
@@ -250,11 +254,11 @@ body{
 	box-shadow: 0 0 5px white;
 }
 .music .vint1{
-	top: 10px;
+	top: -102px;
 	left: 10px;
 }
 .music .vint2{
-	top: 10px;
+	top: -102px;
 	right: 10px;
 }
 .music .vint3{
@@ -284,31 +288,38 @@ body{
 	background: url(../img/bg-header-dark.jpg);
 }
 .music .more{
-	width: 300px;
-	margin: 0 auto;
+	width: 280px;
+	margin: 20px auto;
+}
+.video{
+	margin: 30px auto
 }
 .video .h2{
-	width: 300px;
-	margin: 30px auto 20px;
+	max-width: 1000px;
+	margin: 30px auto 0;
 	text-align: center;
 	font-size: 30px;
 	padding: 5px 0;
 	color: #333;
 	background: url(../img/bg-header.jpg);
 	box-shadow: 0 0 10px white;
+	border-radius: 15px 15px 0 0;
+}
+.video{
+	padding: 0 20px;
 }
 .video .youtube-block{
 	position: relative;
-	max-width: 800px;
+	max-width: 1000px;
 	display: block;
 	margin: 0 auto;
-	border-radius: 5px;
+	border-radius: 0 0 15px 15px;
 	box-shadow: 0 0 10px white;
 	margin-bottom: 30px;
 }
 .video .youtube{
 	display: block;
-	border-radius: 5px;
+	border-radius: 0 0 15px 15px;
 }
 .video .control{
 	position: absolute;
@@ -317,7 +328,7 @@ body{
 	right: 0;
 	background: black;
 	height: 30px;
-	border-radius: 5px;
+	border-radius: 0 0 15px 15px;
 	box-shadow: 0 0 10px white
 }
 .video .play-btn{
@@ -352,7 +363,6 @@ body{
 	padding: 5px 0;
 	font-size: 30px;
 	color: #333;
-	margin-top: 10px;
 	text-decoration: none;
 	text-transform: uppercase;
 	position: relative;
@@ -366,26 +376,79 @@ body{
 	background: url(../img/bg-header-dark.jpg)
 }
 .video .more{
-	width: 300px;
-	margin: 0 auto;
+	width: 280px;
+	margin: 20px auto;
 }
-/*.photo .photo-block{
-	display: flex;
-	justify-content: space-around;
+.photo{
+	margin: 30px auto;
+	padding: 0 20px;
+}
+.photo .h2{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	padding: 10px 0;
+	color: #333;
+	background: url(../img/bg-header.jpg);
+	box-shadow: 0 0 10px white;
+	border-radius: 15px 15px 0 0;
+}
+.photo .photo-block{
+	width: 100%;	
+	position: relative;
 }
 .photo .photo-item{
-	margin-top: 20px;
-	width: 30%;
-	border: 2px solid yellow;
+	height: 300px;
+	background: url(../img/bg-header-dark.jpg);
+	box-shadow: 0 0 20px #fff;
+	border-radius: 0 0 15px 15px;
 }
-.photo .photo-item img{
+.photo .vint{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-image: url(../img/main-photo-vint.png);
+	z-index: 2;
+	box-shadow: 0 0 5px white;
+}
+.photo .vint1{
+	top: -42px;
+	left: 10px;
+}
+.photo .vint2{
+	top: -42px;
+	right: 10px;
+}
+.photo .vint3{
+	bottom: 10px;
+	left: 10px;
+}
+.photo .vint4{
+	bottom: 10px;
+	right: 10px;
+}
+.photo .more{
+	width: 280px;
+	margin: 20px auto;
+}
+.photo a{
 	display: block;
+	padding: 5px 0;
+	font-size: 30px;
+	color: #333;
+	text-decoration: none;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	background: url(../img/bg-header.jpg);
+	box-shadow: 0 0 5px #fff;
+	border-radius: 22px
 }
-.main-footer{
-	height: 100px;
-	background: darkgreen;
+.photo a:hover,
+.photo a:active{
+	background: url(../img/bg-header-dark.jpg);
 }
-*/
 @media (max-width: 900px){
 	.header-main .menu-btn{
 		padding: 10px 20px 10px 10px;
@@ -412,12 +475,48 @@ body{
   		display: none;
 	}
 	.news .h2{
-		font-size: 30px;
+		font-size: 20px;
 	}
-	.concerts .h2{
-		font-size: 30px;
+	.news .vint1{
+		top: -37px;
+	}
+	.news .vint2{
+		top: -37px;
+	}
+	.news .more a{
+		font-size: 20px;
 	}
 	.music .h2{
-		font-size: 30px;
+		font-size: 20px;
+	}
+	.music .vint1{
+		top: -97px;
+	}
+	.music .vint2{
+		top: -97px;
+	}
+	.music ol a{
+		font-size: 20px;
+	}
+	.music .more a{
+		font-size: 20px;
+	}
+	.video .h2{
+		font-size: 20px;
+	}
+	.video .more a{
+		font-size: 20px;
+	}
+	.photo .h2{
+		font-size: 20px;
+	}
+	.photo .vint1{
+		top: -37px;
+	}
+	.photo .vint2{
+		top: -37px;
+	}
+	.photo .more a{
+		font-size: 20px;
 	}
 }

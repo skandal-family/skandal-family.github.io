@@ -85,14 +85,14 @@
       },
       // The css used by the default player. This is is dynamically injected into a `<style>` tag in the top of the head.
       css: '\
-        .audiojs { display: block; margin: 10px auto; width: 320px; height: 60px; background: url(img/bg-header-dark.jpg); overflow: hidden; font-family: Guerrilla, sans-serif; font-size: 20px; border-radius: 5px; box-shadow: 0 0 10px #fff;} \
-        .audiojs .play-pause { width: 50px; height: 50px; padding: 4px 6px; margin: 0px; float: left; overflow: hidden;} \
+        .audiojs { display: flex; justify-content: space-between; margin: 0 auto; width: 100%; max-width: 1000px; height: 60px; background: url(img/bg-header-dark.jpg); overflow: hidden; font-family: Guerrilla, sans-serif; font-size: 20px; box-shadow: 0 0 10px #fff;} \
+        .audiojs .play-pause { width: 50px; height: 50px; padding: 4px 6px; margin: 0px; overflow: hidden;} \
         .audiojs p { display: none; width: 50px; height: 50px; margin: 0px; cursor: pointer; } \
         .audiojs .play { display: block; } \
-        .audiojs .scrubber { position: relative; float: left; width: 190px; background: #5a5a5a; height: 30px; margin: 15px 5px; overflow: hidden; cursor: pointer; border-radius: 5px;} \
-        .audiojs .progress { position: absolute; top: 0px; left: 0px; height: 30px; width: 0px; background: #333; z-index: 1; cursor: pointer;} \
-        .audiojs .loaded { position: absolute; top: 0px; left: 0px; height: 30px; width: 0px; background: #000;} \
-        .audiojs .time { float: left; height: 60px; margin: 0; padding: 0; color: #000;} \
+        .audiojs .scrubber { flex-grow: 1; position: relative; background: #000; height: 20px; margin: 20px 0; overflow: hidden; cursor: pointer; border-radius: 5px;} \
+        .audiojs .progress { position: absolute; top: 0px; left: 0px; height: 20px; width: 0px; background: #333; z-index: 1; cursor: pointer;} \
+        .audiojs .loaded { position: absolute; top: 0px; left: 0px; height: 20px; width: 0px; background: #000;} \
+        .audiojs .time { float: right; height: 60px; width: 50px; margin: 0 10px; padding: 0; color: #000;} \
         .audiojs .time em { display: block; margin: 18px 0; font-style: normal; } \
         .audiojs .time strong { padding: 0px 0px 0px 2px; font-weight: normal; display:none;} \
         .audiojs .error-message { float: left; display: none; margin: 0px 10px; height: 36px; width: 400px; overflow: hidden; line-height: 36px; white-space: nowrap; color: #fff; \
