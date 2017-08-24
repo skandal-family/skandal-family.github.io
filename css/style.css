@@ -469,33 +469,36 @@ body{
 .main-footer a{
 	margin: 5px 10px;
 }
-.main-footer .yt{
-	background-image: url(../img/soc-yt.png);
+.main-footer .yt,
+.main-footer .vk,
+.main-footer .fb,
+.main-footer .in{
+	background-image: url(../img/social-btn.png);
 }
 .main-footer .vk{
-	background-image: url(../img/soc-vk.png);
+	background-position: -40px 0;
 }
 .main-footer .fb{
-	background-image: url(../img/soc-fb.png);
+	background-position: -80px 0;
 }
 .main-footer .in{
-	background-image: url(../img/soc-in.png);
+	background-position: -120px 0;
 }
 .main-footer .yt:hover,
 .main-footer .yt:active{
-	background-image: url(../img/soc-yt-black.png);
+	background-position:  0 -40px;
 }
 .main-footer .vk:hover,
 .main-footer .vk:active{
-	background-image: url(../img/soc-vk-black.png);
+	background-position:  -40px -40px;
 }
 .main-footer .fb:hover,
 .main-footer .fb:active{
-	background-image: url(../img/soc-fb-black.png);
+	background-position:  -80px -40px;
 }
 .main-footer .in:hover,
 .main-footer .in:active{
-	background-image: url(../img/soc-in-balck.png);
+	background-position:  -120px -40px;
 }
 @media (max-width: 900px){
 	.header-main .menu-btn{
