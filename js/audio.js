@@ -34,7 +34,7 @@
       autoplay: false,
       loop: false,
       preload: true,
-      imageLocation: path + 'player-btn.png',
+      imageLocation: 'img/player-btn.png',
       swfLocation: path + 'audiojs.swf',
       useFlash: (function() {
         var a = document.createElement('audio');

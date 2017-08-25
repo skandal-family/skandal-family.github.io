@@ -495,6 +495,58 @@ body{
 .main-footer .in:active{
 	background-position:  -120px -40px;
 }
+.music-main{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	min-height: calc(100vh - 132px);
+}
+.music-main .h1{
+	max-width: 1000px;
+	text-align: center;
+	font-size: 50px;
+	padding: 5px 0;
+	color: #000;
+	text-shadow: 0 0 20px #fff;
+}
+.music-main .albums{
+	max-width: 1000px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: url(../img/bg-light.jpg);
+	border-radius: 15px 15px 0 0;
+	box-shadow: 0 0 10px #fff;
+}
+.music-main .album{
+	margin: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #000;
+}
+.music-main .album1{
+	border-bottom: 5px solid green;
+}
+.music-main .album2{
+	border-bottom: 5px solid red;
+}
+.music-main .album3{
+	border-bottom: 5px solid red;
+}
+.music-main .album img{
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 5px 5px 0 0;
+}
+.music-main .vint1{
+	top: 10px;
+	left: 10px;
+}
+.music-main .vint2{
+	top: 10px;
+	right: 10px;
+}
 @media (max-width: 900px){
 	.header-main .menu-btn{
 		padding: 10px 20px 10px 10px;
@@ -564,5 +616,20 @@ body{
 	}
 	.photo .more a{
 		font-size: 20px;
+	}
+	.music-main .h1{
+		font-size: 40px;
+	}
+	.music-main .album img{
+		width: 100px;
+		height: 100px;
+	}
+	.music-main .vint1{
+	top: 10px;
+	left: 10px;
+	}
+	.music-main .vint2{
+		top: 10px;
+		right: 10px;
 	}
 }
