@@ -1,3 +1,10 @@
+// Меню
+$(".menu-btn").on('click', function() {
+	$(".menu-btn").toggleClass("on");
+	$(".menu-logo").toggleClass("on");
+	$(".menu").toggleClass('flex-menu');
+});
+//галерея
 $(document).ready(function (){
 	var imgArr = $(".galery");
 	var imgTotal = imgArr.length;
